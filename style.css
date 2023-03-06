@@ -102,61 +102,61 @@ main .icon i{
     width: 60%;
 }
 .firstnamelastname .firstname input{
-    height: 6vh;
+    padding: 10px;
     width: 50%;
     border-radius: 5px;
     background: transparent;
 }
 .firstnamelastname .lastname input{
-    height: 6vh;
+    padding: 10px;
     width: 50%;
     border-radius: 5px;
     background: transparent;
 }
 .passwordconformpassword .password input{
-    height: 6vh;
+    padding: 10px;
     width: 50%;
     border-radius: 5px;
     background: transparent;
 }
 .passwordconformpassword .confirmpassword input{
-    height: 6vh;
+    padding: 10px;
     width: 50%;
     border-radius: 5px;
     background: transparent;
 }
 .emailphonenumber .emailid input{
-    height: 6vh;
+    padding: 10px;
     width: 50%;
     border-radius: 5px;
     background: transparent;
 }
 .emailphonenumber .phonenumber input{
-    height: 6vh;
+    padding: 10px;
     width: 50%;
     border-radius: 5px;
     background: transparent;
 }
 .dobaddress .dob input{
-    height: 6vh;
+    padding: 10px;
     width: 50%;
     border-radius: 5px;
     background: transparent;
 }
 .dobaddress .address input{
-    height: 6vh;
+    padding: 10px;
     width: 50%;
     border-radius: 5px;
     background: transparent;
 }
 .statecountry .state input{
-    height: 6vh;
+    padding: 10px;
     width: 50%;
     border-radius: 5px;
     background: transparent;
 }
 .statecountry .country input{
-    height: 6vh;
+    padding: 10px;
     width: 50%;
     border-radius: 5px;
     background: transparent;
