@@ -5,14 +5,14 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .background {
-    background-image: url(/images/bg2.jpg);
-    background-size: cover;
-    height: 155vh;
-    /* background-position-y: -135px; */
+    /* background-image: url(/images/bg7.jpg);
+    background-size: cover; */
+    height: 135vh;
+    background-color: black;
 }
 .background h1{
     text-align: center;
-    color: rgb(219, 16, 16);
+    color: whitesmoke;
     padding-top: 3%;
 }
 .firstnamelastname{
@@ -58,8 +58,10 @@ main .submit button{
     background-color: grey;
 }
 main{
-    margin-top: 7%; 
+    margin-top: 4%; 
     justify-content: center;
+    color: white;
+    /* border: 2px solid grey; */
 }
 main .icon{
     display: flex;
@@ -160,6 +162,12 @@ main .icon i{
     background: transparent;
 }
 
+@media(max-width:1100px){
+    .background{
+        height: 135vh;
+    }
+}
+
 
 @media(max-width: 800px){
     .firstnamelastname .firstname input{
@@ -192,9 +200,15 @@ main .icon i{
     .statecountry .country input{
         width: 60%;
     }
+    .background{
+        height: 115vh;
+    }
 }
 
 @media(max-width: 600px){
+    .background{
+        height: 104vh;
+    }    
     .firstnamelastname .firstname input{
         width: 75%;
     }
@@ -229,9 +243,10 @@ main .icon i{
 
 @media(max-width: 550px){
     .background{
-        background-image: url(/images/bg3.jfif);
-        background-size: cover;
-        height: 180vh;
+        /* background-image: url(/images/bg7.jpg); */
+        /* background-size: cover; */
+        height: 195vh;
+        /* background-position-y: -50px; */
     }
     .firstnamelastname{
         flex-direction: column;
@@ -282,6 +297,34 @@ main .icon i{
     .statecountry .country input{
         width: 100%;
     }
+    .firstnamelastname .lastname{
+        margin-top: 4%;
+    }
+    .passwordconformpassword .password{
+        margin-top: 4%;
+    }
+    .passwordconformpassword .confirmpassword {
+        margin-top: 4%;
+    }
+    .emailphonenumber .emailid{
+        margin-top: 4%;
+    }
+    .emailphonenumber .phonenumber{
+        margin-top: 4%;
+    }
+    .dobaddress .dob{
+        margin-top: 4%;
+    }
+    .dobaddress .address{
+        margin-top: 4%;
+    }
+    .statecountry .state{
+        margin-top: 4%;
+    }
+    .statecountry .country{
+        margin-top: 4%;
+    }
+
     main{
         left: 0%;
     }
@@ -292,11 +335,11 @@ main .icon i{
 
 @media(max-width: 500px){
     .background{
-        background-image: url(/images/bg4.jfif);
-        background-size: cover;
-        height: 178vh;
-        background-position-x: 0px;
-        background-position-y: 0px;
+        /* background-image: url(/images/bg4.jfif);
+        background-size: cover; */
+        height: 188vh;
+        /* background-position-x: 0px;
+        background-position-y: 0px; */
     }
     .background h1{
         color: skyblue;
@@ -308,8 +351,10 @@ main .icon i{
 
 @media(max-width: 450px){
     .background{
-        height: 200vh;
-        
+        height: 188vh;
+    }
+    main{
+        left: 0%;
     }
     .firstnamelastname .lastname{
         margin-top: 4%;
@@ -341,18 +386,29 @@ main .icon i{
     main .submit button {
         width: 18%;
     }
+    main .genderselect {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin-top: 3%;
+    }
+    main .genderselect .select{
+        margin-top: 3%;
+    }
 }
 
 @media(max-width: 400px){
     .background{
         background-image: url(/images/bg5.jfif);
         background-size: cover;
+        height: 185vh;
     }
     main h3{
         color: white;
     }
     main {
         left: 0%;
+        /* justify-content: center; */
     }
     .firstnamelastname .firstname input{
         width: 100%;
@@ -384,11 +440,13 @@ main .icon i{
     .statecountry .country input{
         width: 100%;
     }
-    main{
-        left: 2%;
-    }
     main .submit button {
         width: 18%;
+    }
+    main .genderselect {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
     }
 }
 
@@ -397,7 +455,9 @@ main .icon i{
         left: 0%;
     }
     main .genderselect {
-        flex-direction: column;
+        margin-top: 10%;
     }
-    m
+    main .genderselect .select label{
+        gap: 20px;
+    }
 }
