@@ -1,0 +1,400 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.background {
+    background-image: url(/images/bg2.jpg);
+    background-size: cover;
+    height: 155vh;
+    /* background-position-y: -135px; */
+}
+.background h1{
+    text-align: center;
+    color: rgb(219, 16, 16);
+    padding-top: 3%;
+}
+.firstnamelastname{
+    display: flex;
+    margin-top: 0%;
+    margin-left: 10%;
+}
+.passwordconformpassword{
+    display: flex;
+    margin-top: 2%;
+    margin-left: 10%;
+
+}
+.emailphonenumber{
+    display: flex;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+.dobaddress{
+    display: flex;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+.statecountry{
+    display: flex;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+main .genderselect{
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+}
+main .submit{
+    background-color: solid grey;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 8%;
+}
+main .submit button{
+    height: 6vh;
+    width: 10%;
+    background-color: grey;
+}
+main{
+    margin-top: 7%; 
+    justify-content: center;
+}
+main .icon{
+    display: flex;
+    margin-top: 4%;
+}
+main .icon i{
+    padding-top: 10px;
+    transform:translateX(-4px)
+}
+.firstnamelastname .firstname{
+    width: 60%;
+}
+.firstnamelastname .lastname{
+    width: 60%;
+}
+.passwordconformpassword .password{
+    width: 60%;
+}
+.passwordconformpassword .confirmpassword{
+    width: 60%;
+}
+.emailphonenumber .emailid{
+    width: 60%;
+}
+.emailphonenumber .phonenumber{
+    width: 60%;
+}
+.dobaddress .dob{
+    width: 60%;
+}
+.dobaddress .address{
+    width: 60%;
+}
+.statecountry .state{
+    width: 60%;
+}
+.statecountry .country{ 
+    width: 60%;
+}
+.firstnamelastname .firstname input{
+    height: 6vh;
+    width: 50%;
+    border-radius: 5px;
+    background: transparent;
+}
+.firstnamelastname .lastname input{
+    height: 6vh;
+    width: 50%;
+    border-radius: 5px;
+    background: transparent;
+}
+.passwordconformpassword .password input{
+    height: 6vh;
+    width: 50%;
+    border-radius: 5px;
+    background: transparent;
+}
+.passwordconformpassword .confirmpassword input{
+    height: 6vh;
+    width: 50%;
+    border-radius: 5px;
+    background: transparent;
+}
+.emailphonenumber .emailid input{
+    height: 6vh;
+    width: 50%;
+    border-radius: 5px;
+    background: transparent;
+}
+.emailphonenumber .phonenumber input{
+    height: 6vh;
+    width: 50%;
+    border-radius: 5px;
+    background: transparent;
+}
+.dobaddress .dob input{
+    height: 6vh;
+    width: 50%;
+    border-radius: 5px;
+    background: transparent;
+}
+.dobaddress .address input{
+    height: 6vh;
+    width: 50%;
+    border-radius: 5px;
+    background: transparent;
+}
+.statecountry .state input{
+    height: 6vh;
+    width: 50%;
+    border-radius: 5px;
+    background: transparent;
+}
+.statecountry .country input{
+    height: 6vh;
+    width: 50%;
+    border-radius: 5px;
+    background: transparent;
+}
+
+
+@media(max-width: 800px){
+    .firstnamelastname .firstname input{
+        width: 60%;
+    }
+    .firstnamelastname .lastname input{
+        width: 60%;
+    }
+    .passwordconformpassword .password input{
+        width: 60%;
+    }
+    .passwordconformpassword .confirmpassword input{
+        width: 60%;
+    }
+    .emailphonenumber .emailid input{
+        width: 60%;
+    }
+    .emailphonenumber .phonenumber input{
+        width: 60%;
+    }
+    .dobaddress .dob input{
+        width: 60%;
+    }
+    .dobaddress .address input{
+        width: 60%;
+    }
+    .statecountry .state input{
+        width: 60%;
+    }
+    .statecountry .country input{
+        width: 60%;
+    }
+}
+
+@media(max-width: 600px){
+    .firstnamelastname .firstname input{
+        width: 75%;
+    }
+    .firstnamelastname .lastname input{
+        width: 75%;
+    }
+    .passwordconformpassword .password input{
+        width: 75%;
+    }
+    .passwordconformpassword .confirmpassword input{
+        width: 75%;
+    }
+    .emailphonenumber .emailid input{
+        width: 75%;
+    }
+    .emailphonenumber .phonenumber input{
+        width: 75%;
+    }
+    .dobaddress .dob input{
+        width: 75%;
+    }
+    .dobaddress .address input{
+        width: 75%;
+    }
+    .statecountry .state input{
+        width: 75%;
+    }
+    .statecountry .country input{
+        width: 75%;
+    }
+}
+
+@media(max-width: 550px){
+    .background{
+        background-image: url(/images/bg3.jfif);
+        background-size: cover;
+        height: 180vh;
+    }
+    .firstnamelastname{
+        flex-direction: column;
+    }
+    .passwordconformpassword{
+        flex-direction: column;
+    }
+    .emailphonenumber{
+        flex-direction: column;
+    }
+    .dobaddress{
+        flex-direction: column;
+    }
+    .statecountry{
+        flex-direction: column;
+    }
+    main{
+        position: relative;
+        left: 5%; 
+    }
+    .firstnamelastname .firstname input{
+        width: 100%;
+    }
+    .firstnamelastname .lastname input{
+        width: 100%;
+    }
+    .passwordconformpassword .password input{
+        width: 100%;
+    }
+    .passwordconformpassword .confirmpassword input{
+        width: 100%;
+    }
+    .emailphonenumber .emailid input{
+        width: 100%;
+    }
+    .emailphonenumber .phonenumber input{
+        width: 100%;
+    }
+    .dobaddress .dob input{
+        width: 100%;
+    }
+    .dobaddress .address input{
+        width: 100%;
+    }
+    .statecountry .state input{
+        width: 100%;
+    }
+    .statecountry .country input{
+        width: 100%;
+    }
+    main{
+        left: 0%;
+    }
+    main .submit button {
+        width: 18%;
+    }
+}
+
+@media(max-width: 500px){
+    .background{
+        background-image: url(/images/bg4.jfif);
+        background-size: cover;
+        height: 178vh;
+        background-position-x: 0px;
+        background-position-y: 0px;
+    }
+    .background h1{
+        color: skyblue;
+    }
+    main .submit button {
+        width: 18%;
+    }
+}
+
+@media(max-width: 450px){
+    .background{
+        height: 200vh;
+        
+    }
+    .firstnamelastname .lastname{
+        margin-top: 4%;
+    }
+    .passwordconformpassword .password{
+        margin-top: 4%;
+    }
+    .passwordconformpassword .confirmpassword{
+        margin-top: 4%;
+    }
+    .emailphonenumber .emailid{
+        margin-top: 4%;
+    }
+    .emailphonenumber .phonenumber{
+        margin-top: 4%;
+    }
+    .dobaddress .dob{
+        margin-top: 4%;
+    }
+    .dobaddress .address{
+        margin-top: 4%;
+    }
+    .statecountry .state{
+        margin-top: 4%;
+    }
+    .statecountry .country{
+        margin-top: 4%;
+    }
+    main .submit button {
+        width: 18%;
+    }
+}
+
+@media(max-width: 400px){
+    .background{
+        background-image: url(/images/bg5.jfif);
+        background-size: cover;
+    }
+    main {
+        left: 0%;
+    }
+    .firstnamelastname .firstname input{
+        width: 100%;
+    }
+    .firstnamelastname .lastname input{
+        width: 100%;
+    }
+    .passwordconformpassword .password input{
+        width: 100%;
+    }
+    .passwordconformpassword .confirmpassword input{
+        width: 100%;
+    }
+    .emailphonenumber .emailid input{
+        width: 100%;
+    }
+    .emailphonenumber .phonenumber input{
+        width: 100%;
+    }
+    .dobaddress .dob input{
+        width: 100%;
+    }
+    .dobaddress .address input{
+        width: 100%;
+    }
+    .statecountry .state input{
+        width: 100%;
+    }
+    .statecountry .country input{
+        width: 100%;
+    }
+    main{
+        left: 2%;
+    }
+    main .submit button {
+        width: 18%;
+    }
+}
+
+@media(max-width:350px){
+    main {
+        left: 0%;
+    }
+    main .genderselect {
+        flex-direction: column;
+    }
+    m
+}
