@@ -348,6 +348,9 @@ main .icon i{
         background-image: url(/images/bg5.jfif);
         background-size: cover;
     }
+    main h3{
+        color: white;
+    }
     main {
         left: 0%;
     }
