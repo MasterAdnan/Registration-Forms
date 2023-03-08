@@ -165,11 +165,28 @@ main .icon i{
 }
 
 @media(max-width:1100px){
-    .background{
-        height: 130vh;
+    .background {
+        height: 135vh;
     }
 }
 
+@media(max-width:1050px){
+    .background{
+        height: 136vh;
+    }
+}
+
+@media(max-width:1000px){
+    .background{
+        height: 134vh;
+    }
+}
+
+@media(max-width:950px){
+    .background{
+        height: 132vh;
+    }
+}
 
 @media(max-width: 800px){
     .firstnamelastname .firstname input{
@@ -209,7 +226,7 @@ main .icon i{
 
 @media(max-width:750px){
     .background {
-        height: 117vh;
+        height: 120vh;
     }
     main .submit {
         margin-bottom: 0%;
