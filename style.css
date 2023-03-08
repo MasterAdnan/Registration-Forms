@@ -61,7 +61,9 @@ main{
     margin-top: 4%; 
     justify-content: center;
     color: white;
-    /* border: 2px solid grey; */
+}
+main input{
+    color: white;
 }
 main .icon{
     display: flex;
@@ -164,7 +166,7 @@ main .icon i{
 
 @media(max-width:1100px){
     .background{
-        height: 135vh;
+        height: 130vh;
     }
 }
 
@@ -201,13 +203,28 @@ main .icon i{
         width: 60%;
     }
     .background{
-        height: 115vh;
+        height: 120vh;
+    }
+}
+
+@media(max-width:750px){
+    .background {
+        height: 117vh;
+    }
+    main .submit {
+        margin-bottom: 0%;
+    }
+}
+
+@media(max-width: 650px){
+    .background {
+        height: 112vh;
     }
 }
 
 @media(max-width: 600px){
     .background{
-        height: 104vh;
+        height: 110vh;
     }    
     .firstnamelastname .firstname input{
         width: 75%;
@@ -243,10 +260,7 @@ main .icon i{
 
 @media(max-width: 550px){
     .background{
-        /* background-image: url(/images/bg7.jpg); */
-        /* background-size: cover; */
-        height: 195vh;
-        /* background-position-y: -50px; */
+        height: 207vh;
     }
     .firstnamelastname{
         flex-direction: column;
@@ -264,8 +278,9 @@ main .icon i{
         flex-direction: column;
     }
     main{
-        position: relative;
-        left: 5%; 
+        left: 0%; 
+        width: 100%;
+        justify-content: flex-end;
     }
     .firstnamelastname .firstname input{
         width: 100%;
@@ -324,10 +339,6 @@ main .icon i{
     .statecountry .country{
         margin-top: 4%;
     }
-
-    main{
-        left: 0%;
-    }
     main .submit button {
         width: 18%;
     }
@@ -337,9 +348,7 @@ main .icon i{
     .background{
         /* background-image: url(/images/bg4.jfif);
         background-size: cover; */
-        height: 188vh;
-        /* background-position-x: 0px;
-        background-position-y: 0px; */
+        height: 204vh;
     }
     .background h1{
         color: skyblue;
@@ -351,7 +360,7 @@ main .icon i{
 
 @media(max-width: 450px){
     .background{
-        height: 188vh;
+        height: 200vh;
     }
     main{
         left: 0%;
@@ -401,14 +410,13 @@ main .icon i{
     .background{
         background-image: url(/images/bg5.jfif);
         background-size: cover;
-        height: 185vh;
+        height: 200vh;
     }
     main h3{
         color: white;
     }
     main {
         left: 0%;
-        /* justify-content: center; */
     }
     .firstnamelastname .firstname input{
         width: 100%;
